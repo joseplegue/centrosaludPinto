@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Centro de Salud Pinto</title>
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="stylesheet" href="style.css" />
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js');
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <img src="public/PINTO1.webp" alt="Logo Pinto" />
+    <h1>Centro de Salud Universitario de Pinto</h1>
+  </header>
+  <main>
+    <p>Bienvenido a la web oficial del Centro de Salud Universitario de Pinto.</p>
+    <img src="public/PINTO2.jpg" alt="Imagen Centro de Salud" style="max-width: 100%; height: auto;" />
+  </main>
+  <footer>
+    <p>Aplicación PWA en desarrollo. Instalación disponible desde navegador móvil.</p>
+  </footer>
+</body>
+</html>
